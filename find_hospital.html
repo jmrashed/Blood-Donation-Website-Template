@@ -102,11 +102,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 sec-title colored text-center">
-                        <h2>     About Us    </h2>
+                        <h2>   Find Hospital   </h2>
                         <ul class="breadcumb">
                             <li><a href="blood_info.html"> Home  </a></li>
                             <li><i class="fa fa-angle-right"></i></li>
-                            <li><span> About Us </span></li>
+                            <li><span> Find Hospital </span></li>
                         </ul>
                         <span class="decor"><span class="inner"></span></span>
                     </div>
@@ -114,141 +114,45 @@
             </div>
         </div> 
 
-        <div class="container"> 
-            <div class="col-md-offset-2 col-md-8">
-                <p class="text-center" style="font-size: 20px;">Please fill up the form</p>
-                <form class="form-horizontal" method="post" action="">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control write_to_doctor" name="name" placeholder="Name">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control write_to_doctor" name="name" placeholder="Age">
-                        </div> 
-                        <div class="col-md-6">
-                            <input type="text" class="form-control write_to_doctor" name="name" placeholder="Last checked blood presure">
-                        </div>
-                        <div class="col-md-6 ">
-                            <input type="text" class="form-control write_to_doctor" name="name" placeholder="Any previous diseases">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12"  style="  margin-top: 50px;">
-                            <textarea class="form-control" style="border: 5px solid #c9302c;" name="problem" rows="10" placeholder="Write your problem"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-offset-4 col-md-4">
-                            <input type="submit" name="submit" value="Submit" class="submit-btn form-control">
-                        </div>
+
+        <div class="find_hospital">
+            <div class="container">  
+                <h2 class="find_hospital_title">Find Your Hospital</h2>
+                <p style="margin-top: 120px"></p>
+                <form class="form-horizontal" method="post" action>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1" style="width: 25%;"> 
+                            <select name="divisions" class="form-control find_search_button">
+                                <option value="Dhaka">Select Division</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Khulna">Dhaka</option>
+                            </select>
+                        </span>
+                        <span class="input-group-addon" id="basic-addon1" style="width: 25%;"> 
+                            <select name="divisions" class="form-control find_search_button">
+                                <option value="Dhaka">Select Upazila</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Khulna">Dhaka</option>
+                            </select>
+                        </span>
+                        <input type="text" class="col-xs-12 form-control find_search" placeholder="Hospital name" aria-describedby="basic-addon1">
+                           <span class="input-group-addon" id="basic-addon1"> 
+                               <button class="col-xs-12 btn btn-xs btn-search find_search_button">
+                                   <i class="fa fa-search"></i>
+                               </button>
+                        </span>
                     </div>
                 </form>
             </div>
         </div> 
-        <div id="gallery"> 
-            <div class="container">
-                <div class="row">
-                    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h1 class="gallery-title">Blood Fighter</h1>
-
-                    </div>
-
-                    <div align="center">
-                        <button class="btn filter-button" data-filter="all">All</button>
-                        <button class="btn filter-button" data-filter="section1">section1</button>
-                        <button class="btn filter-button" data-filter="section2">section2</button>
-                        <button class="btn filter-button" data-filter="section3">section3</button>
-                        <button class="btn filter-button" data-filter="section4">section4</button>
-                        <button class="btn filter-button" data-filter="section5">section5</button>
-                        <button class="btn filter-button" data-filter="section6">section6</button>
-                    </div>
-                    <br/>
-
-
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section1">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section2">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section1">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section3">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section4">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section3">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section4">
-                        <img src="images/blood_drop.png" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section3">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section3">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section1">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section4">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-
-                    <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-6 filter section2">
-                        <img src="http://fakeimg.pl/300x200/" class="img-responsive">
-                    </div>
-                </div>
-            </div> 
-
-        </div>
-        <div id="tm-top-b" class="uk-block tm-block tm-block-padding-collapsed tm-block-gutter">
-            <div class="uk-container uk-container-center">
-                <section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin=""> 
-                    <div class="uk-width-1-1 uk-row-first"><div class="uk-panel">
-                            <div id="wk-gridcb9" class="uk-grid-width-1-1 uk-grid-width-medium-1-4 uk-grid-width-large-1-4 uk-grid-width-xlarge-1-4 " data-uk-grid="{gutter: '30 30'}" style="position: relative; margin-left: -30px; height: 366px;">
-                                <div data-grid-prepared="true" style="position: absolute; box-sizing: border-box; padding-left: 30px; padding-bottom: 30px; top: 0px; left: 0px; opacity: 1;"><div class="uk-panel uk-overlay-hover uk-text-center">
-                                        <figure class="uk-overlay tm-overlay-uniq "> 
-                                            <img src="/images/icon/stethoscope.jpg" class="uk-overlay-scale" alt="ABOUT THE DOCTOR" width="329" height="329"> 
-                                            <div class="uk-overlay-panel uk-overlay-bottom"><div>
-                                                    <h3 class="uk-panel-title uk-margin-bottom-remove tm-overlay-panel-title">ABOUT THE DOCTOR</h3></div></div> <a class="uk-position-cover tm-panel-link" href="http://www.housecalldoctorla.com/michael-farzam-md.html">
-                                                <i class="tm-icon tm-icon-plus"></i>
-                                            </a> 
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div data-grid-prepared="true" style="position: absolute; box-sizing: border-box; padding-left: 30px; padding-bottom: 30px; top: 0px; left: 325.75px; opacity: 1;"><div class="uk-panel uk-overlay-hover uk-text-center"><figure class="uk-overlay tm-overlay-uniq "> <img src="/images/icon/DOCTOR.jpg" class="uk-overlay-scale" alt="CONCIERGE DOCTOR" width="329" height="329"> <div class="uk-overlay-panel uk-overlay-bottom"><div><h3 class="uk-panel-title uk-margin-bottom-remove tm-overlay-panel-title">CONCIERGE DOCTOR</h3></div></div> <a class="uk-position-cover tm-panel-link" href="http://www.housecalldoctorla.com/concierge-doctor-los-angeles.html"><i class="tm-icon tm-icon-plus"></i></a> </figure></div></div><div data-grid-prepared="true" style="position: absolute; box-sizing: border-box; padding-left: 30px; padding-bottom: 30px; top: 0px; left: 651.5px; opacity: 1;"><div class="uk-panel uk-overlay-hover uk-text-center"><figure class="uk-overlay tm-overlay-uniq "> <img src="/images/icon/urgent.jpg" class="uk-overlay-scale" alt="URGENT CARE" width="329" height="329"> <div class="uk-overlay-panel uk-overlay-bottom"><div><h3 class="uk-panel-title uk-margin-bottom-remove tm-overlay-panel-title">URGENT CARE</h3></div></div> <a class="uk-position-cover tm-panel-link" href="http://www.housecalldoctorla.com/urgent-care.html"><i class="tm-icon tm-icon-plus"></i></a> </figure></div></div><div data-grid-prepared="true" style="position: absolute; box-sizing: border-box; padding-left: 30px; padding-bottom: 30px; top: 0px; left: 977.25px; opacity: 1;"><div class="uk-panel uk-overlay-hover uk-text-center"><figure class="uk-overlay tm-overlay-uniq "> <img src="/images/icon/testimonials.jpg" class="uk-overlay-scale" alt="TESTIMONIALS" width="329" height="329"> <div class="uk-overlay-panel uk-overlay-bottom"><div><h3 class="uk-panel-title uk-margin-bottom-remove tm-overlay-panel-title">TESTIMONIALS</h3></div></div> <a class="uk-position-cover tm-panel-link" href="http://www.housecalldoctorla.com/testimonials.html?view=testimonials"><i class="tm-icon tm-icon-plus"></i></a> </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-        <div class="clearfix"></div>
+  
         <!--service-->
-        <div id="service">
+        <div id="service" style="margin: 0px;">
             <!--service gapping-->
             <div class="service-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12"> 
+                        <div class="col-md-offset-2 col-md-8"> 
                             <p class="text-center find_out_where">Find out where to give blood</p> 
                             <form class="form-horizontal" method="post" action=""> 
                                 <div class="input-group">
